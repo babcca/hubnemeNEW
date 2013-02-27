@@ -92,6 +92,9 @@
 
  </style>
  </head>
+ <!-- CHYBI BODY -->
+ <?php if (isset($_GET["msg"])) { echo "<b>".htmlspecialchras($_GET["msg"])."</b>"; } ?>
+ 
  <form name="kontaktform" id="formID" method="post" action="sendmail.php">
  <table class="formular" style="text-align:center;" align="center">
    <tbody>
