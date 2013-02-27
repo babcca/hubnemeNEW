@@ -14,4 +14,9 @@ if (!mail($to, $subject, $msg))
 {
   die("Error: Chyba pri odesilani");
 }
+else
+{
+  $kamPresmerovat = "adresa s formularem";
+  header('Location: '.$kamPresmerovat);
+}
 ?>
