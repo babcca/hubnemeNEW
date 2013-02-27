@@ -1,0 +1,20 @@
+span.wpcf7-not-valid-tip {
+	left: auto;
+	right: 20%;
+	direction: rtl;
+		color:red;
+		font-size: 300pt;
+	font-color:red;
+}
+span.wpcf7-not-valid-tip-no-ajax {
+	direction: rtl;
+		color:red;
+	font-color:red;
+	font-size: 300pt;
+}
+span.wpcf7-list-item {
+	margin-left: 0;
+	margin-right: 0.5em;
+		color:red;
+	font-color:red;
+}

@@ -1,0 +1,1 @@
+<form method="get" id="searchform" action="<?php echo home_url()?>/"><input type="text" class="text" value="<?php echo get_search_query()?>" name="s" id="s" />&nbsp;<input type="submit" class="submit" value="Go!" /></form><img src="<?php echo get_template_directory_uri()?>/images/spacer.gif" alt="WP_Lime_Slice">'

@@ -1,0 +1,118 @@
+ <html>
+ <head>
+ <style>
+.okraj {padding-top:19px;border-width: 3px; border-style: solid; border-color: #5fb916;vertical-align: middle;-webkit-box-shadow:  -2px 4px 6px 2px 888888;box-shadow:  -2px 4px 6px 2px #888888; margin-left:8px;margin-right:8px;}
+.bunka {width: 250px;font-size: 12pt; border-width: 2px; border-style: solid; border-color: #5fb916;vertical-align: middle;}
+.formular {text-align:center; vertical-align:middle; margin-top:0px; width:510px; height:350px;border:3px; border-style: solid; border-color: #5fb916;cellpadding:10px;margin-left: auto; margin-right: auto; -webkit-box-shadow:  -2px 4px 6px 2px 888888;box-shadow:  -2px 4px 6px 2px #888888;}
+
+.selectbox {
+   width: 256px;
+   background: #fff;
+   background: url(http://umime-hubnout.cz/wp-content/themes/lime-slice/images/arrow22.jpg) no-repeat right #fff;
+   padding: 5px;
+   font-size: 10pt;
+   
+   border-width: 2px;
+   border-color:#5fb916;
+   border-radius: 0;
+   height: 3-px;
+   -webkit-appearance: none;
+   }
+
+.selectbox:hover {background: url(http://umime-hubnout.cz/wp-content/themes/lime-slice/images/arrow22.jpg) no-repeat right #e2efe2;}
+
+#comments{clear:both}
+.comment-form-comment label,.comment-form-author,.comment-form-email,.comment-form-url{display:block;width:100px}
+
+.tlacitko {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #ffffff;-moz-box-shadow:inset 0px 1px 0px 0px #a9db7d;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a9db7d;
+	box-shadow:inset 0px 1px 0px 0px #a9db7d;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b9e09a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #e1e6dd 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e6dd', endColorstr='#5cb811');
+	background-color:#e1e6dd;
+	-moz-border-radius:36px;
+	-webkit-border-radius:36px;
+	border-radius:36px;
+	border:1px solid #268a16;
+	display:inline-block;
+	color:#fff;
+	font-family:arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:15px 26px;
+	text-decoration:none;
+	width:280px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+
+.tlacitko:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #e1e6dd) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #e1e6dd 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#e1e6dd');
+	background-color:#5cb811;
+
+}
+.tlacitko:active {
+	position:relative;
+	top:1px;
+}
+
+
+ </style>
+ </head>
+ <table class="formular" style="text-align:center;" align="center">
+   <tbody>
+    <tr>
+	 <th colspan="2" style="text-align:center; text-indent:0px; color:#fff;border:none; background-color:#5fb916; "><b>Objednávkový fomulář</b>
+	 </th>
+	</tr>
+	<tr>
+	 <td style="border:none;vertical-align: middle;"><b style="margin-left:5px;">Vyberte město: *</b></td>
+	 <td style="border:none;vertical-align: middle;">Selectbox</td>
+	</tr>
+	<tr>
+	 <td style="border:none; vertical-align: middle;"><b style="margin-left:5px;">Chci kontaktovat: * </b></td>
+	 <td style="border:none;vertical-align: middle;">[select* predvolby class:selectbox "Kdykoliv" "Dopoledne" "Odpoledne" "Večer"]</td>
+	</tr>
+	<tr>
+	 <td style="border:none;vertical-align: middle;"><b style="margin-left:5px;">Jméno: *</b></td>
+	 <td  style="border:none;vertical-align: middle;">[text* jmeno class:bunka] <br></td>
+	</tr>
+	<tr>
+	 <td style="border:none;vertical-align: middle;"><b style="margin-left:5px;">Přijímení: *</b> </td>
+	 <td style="border:none;vertical-align: middle;">[text* prijimeni class:bunka] </td>
+	</tr>
+	<tr><td style="border:none;vertical-align: middle;"><b style="margin-left:5px;">Telefon: *</b> </td><td style="border:none;vertical-align: middle;">[text* telefon class:bunka]</td>
+	</tr>
+	<tr>
+	<td style="border:none;vertical-align: middle;"><b style="margin-left:5px;">Email: </b> </td>
+	<td style="border:none;vertical-align: middle;">[email your-email class:bunka]</td>
+	</tr>
+	<tr>
+	<th colspan="2" style="padding-top: 15px;text-align:center; text-indent:0px; border:none;">* Pole označená hvězdičkou je nutné vyplnit</strong>
+ 	</th>
+	</tr>
+	<tr>
+	<th colspan="2" style="padding-top: 15px;text-align:center; text-indent:0px; border:none;">
+ 	<div style="vertical-align="middle;">[submit  class:tlacitko "Odeslat formulář"]</div>
+ 	</th>
+	</tr>
+	<tr>
+	<th colspan="2" style="padding-top: 15px;text-align:center; text-indent:0px; border:none;">
+	<span style="font-size: 9pt;"></b>Odesláním formuláře vyjadřujete souhlas s <a style="font-weight: bold;" rel="#podminky" href="#podminky"/>podmínkami</a>.</span>
+	</th>
+	</tr>
+	<tr>
+	 <th colspan="2" style="padding-top: 15px;text-align:center; text-indent:0px; border:none;"> Do dvou pracovních dnů se s Vámi spojíme a domluvíme se s Vámi na konkrétním termínu</th>
+   </tr>
+ </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* IE Hacks
+*******************************/
+html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+* html hr {margin: 0; /* IE6 */}
+*+html hr {margin: 0; /* IE7 */}
+
+.zoom,
+#main,
+#sidebar li,
+#content .post,
+#footer .content,
+.navigation
+{ zoom:1; }
+
+.clear { display: inline-block }
+.clear { display: block }
+* html .clear{ height: 1% }
+
+.wordwrap {
+	word-wrap: break-word;
+}
+
+sub,
+sup {
+  font-size:1.0em;
+}
