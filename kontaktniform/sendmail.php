@@ -16,7 +16,7 @@ if (!mail($to, $subject, $msg))
 }
 else
 {
-  $kamPresmerovat = "adresa s formularem";
+  $kamPresmerovat = "adresa s formularem?msg=".urlencode("Zprava odeslana");
   header('Location: '.$kamPresmerovat);
 }
 ?>
