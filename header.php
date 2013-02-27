@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="http://umime-hubnout.cz/kontakt//css/validationEngine.jquery.css" type="text/css"/>
 <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script> 
 	<!--JS-->
     <script>
