@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="http://umime-hubnout.cz/kontakt//css/validationEngine.jquery.css" type="text/css"/>
 <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://umime-hubnout.cz/kontakt/js/jquery-1.8.2.min.js" type="text/javascript"></script>
 <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script> 
 	<!--JS-->
     <script>
@@ -34,7 +34,6 @@
         });
     </script>
 <!--formular-->
-  <script src="http://umime-hubnout.cz/kontakt/js/jquery-1.8.2.min.js" type="text/javascript"></script>
   <script src="http://umime-hubnout.cz/kontakt/js/languages/jquery.validationEngine-cz.js" type="text/javascript" charset="utf-8"></script>
   <script src="http://umime-hubnout.cz/kontakt/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
   <script>
