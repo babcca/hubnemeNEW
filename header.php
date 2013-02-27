@@ -33,7 +33,7 @@
            });
         });
     </script>
-    
+<!--formular-->
   <script src="http://umime-hubnout.cz/kontakt/js/jquery-1.8.2.min.js" type="text/javascript"></script>
   <script src="http://umime-hubnout.cz/kontakt/js/languages/jquery.validationEngine-cz.js" type="text/javascript" charset="utf-8"></script>
   <script src="http://umime-hubnout.cz/kontakt/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
